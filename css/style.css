@@ -1,0 +1,11 @@
+::root {
+    --primary-color: #FFF;
+    --secondary-color: #00C0E8;
+    --fonte: 14px;
+    --tipo_fonte: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: var(--primary-color);
+        
+}
