@@ -1,33 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompreJá</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Compre Já</title>
 </head>
+
 <body>
-    <header class="cabecalho">
-        <h1>Compre Já</h1>
-        <nav>
-            <label for="busca">
-                <input type="text" name="busca" id="" placeholder="Buscar, produtos, marcas e muito mais...">
-            </label>
-        </nav>
-        
-        <button class="conta">
-             <img src="img/perfil-de-usuario.png" alt="carrinho">Minha conta
-        </button>
 
-        <button class="carrinho">
-            🛒 Carrinho <span>0</span>
-        </button>
+    <div class="pagina">
 
-        <button class="sair">
-            Sair
-        </button>
-
-    </header>
-    
+        <header class="cabecalho">
+            <div class="cabecalho-principal">
+                <a class="logo" href="#">CompreJá</a>
+                <div class="barra-pesquisa">
+                    <input type="text" placeholder="Buscar, produtos, marcas e muito mais...">
+                    <div class="icone-pesquisa"></div>
+                </div>
+                <div class="acoes">
+                    <a class="acao" href="#">
+                        <img class="icone-conta" src="img/perfil-de-usuario.png" alt="">
+                        Conta
+                    </a>
+                    <a class="acao" href="#">
+                        <img class="icone-carrinho" src="img/vista-lateral-vazia-do-carrinho-de-compras.png" alt="">
+                        Carrinho
+                    </a>
+                    <a class="botao-sair" href="#">Sair</a>
+                </div>
+            </div>
+            <nav class="menu">
+                <a href="#">Categorias</a>
+                <a href="#">Ofertas</a>
+                <a href="#">Cupons</a>
+                <a href="#">Contato</a>
+            </nav>
+        </header>
+        <main>
+            <section class="ofertas">
+                <div class="introducao">
+                    <h1>Ofertas do dia</h1>
+                    <p>Promoções com até<br>90% de desconto</p>
+                </div>
+                <div class="produtos">
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                    <article class="produto">
+                        <div class="imagem-produto">
+                            <img src="img/tenis.png" alt="">
+                        </div><span class="categoria">Tênis</span>
+                        <h2>Tênis Branco minimalista</h2><button>Comprar</button>
+                    </article>
+                </div>
+            </section>
+            <section class="beneficios">
+                <div class="beneficio">
+                    <div class="icone-beneficio icone-pagamento"></div><strong>Escolha como pagar</strong>
+                </div>
+                <div class="beneficio">
+                    <div class="icone-beneficio icone-frete"></div><strong>Frete grátis a partir de R$ 19</strong>
+                </div>
+                <div class="beneficio">
+                    <div class="icone-beneficio icone-seguranca"></div><strong>Segurança, do início ao fim</strong>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <div class="links-rodape"><a href="#">Trabalhe conosco</a><a href="#">Termos e condições</a><a
+                    href="#">Promoções</a><a href="#">Acessibilidade</a><a href="#">Contato</a><a href="#">Como cuidamos
+                    da sua privacidade</a><a href="#">Informações sobre seguros</a><a href="#">Programa de Afiliados</a>
+            </div>
+            <p>Copyright © 1999-2026. CompreJá Ltda.</p>
+        </footer>
+    </div>
 </body>
+
 </html>
