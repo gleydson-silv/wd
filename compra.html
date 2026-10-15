@@ -1,0 +1,205 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar - CompreJá</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pagina">
+        <header class="cabecalho">
+            <div class="cabecalho-principal">
+                <a class="logo" href="index.html">CompreJá</a>
+
+                <div class="barra-pesquisa">
+                    <input type="text" placeholder="Buscar, produtos, marcas e muito mais...">
+                </div>
+
+                <div class="acoes">
+                    <a class="acao" href="#">
+                        <img class="icone-conta" src="img/perfil-de-usuario.png" alt="">
+                        Conta
+                    </a>
+
+                    <a class="acao" href="#">
+                        <img class="icone-carrinho" src="img/vista-lateral-vazia-do-carrinho-de-compras.png" alt="">
+                        Carrinho
+                    </a>
+
+                    <a class="botao-sair" href="#">Sair</a>
+                </div>
+            </div>
+
+            <nav class="menu">
+                <a href="#">Categorias</a>
+                <a href="index.html">Ofertas</a>
+                <a href="#">Cupons</a>
+                <a href="#">Contato</a>
+            </nav>
+        </header>
+
+        <main class="compra">
+            <section class="detalhe-produto" aria-label="Detalhes do produto">
+                <div class="galeria-produto" aria-label="Galeria de imagens do produto">
+                    <div class="imagem-principal" role="img" aria-label="Espaço para imagem principal do tênis"></div>
+
+                    <div class="miniaturas">
+                        <div class="miniatura" role="img" aria-label="Espaço para imagem do produto"></div>
+                        <div class="miniatura" role="img" aria-label="Espaço para imagem do produto"></div>
+                        <div class="miniatura" role="img" aria-label="Espaço para imagem do produto"></div>
+                        <div class="miniatura" role="img" aria-label="Espaço para imagem do produto"></div>
+                    </div>
+                </div>
+
+                <div class="info-produto">
+                    <h1>Tênis Branco minimalista</h1>
+
+                    <div class="avaliacao" aria-label="Avaliação: 4 de 5 estrelas">
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+
+                    <p class="preco">R$ 129,90</p>
+
+                    <div class="opcao-produto">
+                        <p>Selecione a cor:</p>
+                        <div class="opcoes-cor" aria-label="Cores disponíveis">
+                            <button class="cor cor-branca" type="button" aria-label="Branco"></button>
+                            <button class="cor cor-preta" type="button" aria-label="Preto"></button>
+                            <button class="cor cor-cinza" type="button" aria-label="Cinza"></button>
+                        </div>
+                    </div>
+
+                    <div class="opcao-produto">
+                        <p>Tamanho</p>
+                        <div class="opcoes-tamanho">
+                            <button type="button">39</button>
+                            <button type="button">40</button>
+                            <button type="button">41</button>
+                        </div>
+                    </div>
+
+                    <div class="opcao-produto">
+                        <p>Quantidade</p>
+                        <div class="quantidade">
+                            <button type="button" aria-label="Diminuir quantidade">−</button>
+                            <span>1</span>
+                            <button type="button" aria-label="Aumentar quantidade">+</button>
+                        </div>
+                    </div>
+
+                    <button class="botao-comprar" type="button">Comprar</button>
+
+                    <button class="botao-adicionar-carrinho" type="button">
+                        <img src="img/vista-lateral-vazia-do-carrinho-de-compras.png" alt="">
+                        Carrinho
+                    </button>
+                </div>
+            </section>
+
+            <section class="informacoes-extras" aria-label="Informações adicionais do produto">
+
+                <div class="listas-produto">
+
+                    <section class="bloco-info">
+                        <h2>Benefícios do produto</h2>
+
+                        <ul>
+                            <li>Design minimalista e versátil</li>
+                            <li>Fácil de combinar com diferentes roupas</li>
+                            <li>Ideal para o uso cotidiano</li>
+                        </ul>
+                    </section>
+
+                    <section class="bloco-info">
+                        <h2>Como comprar</h2>
+
+                        <ol>
+                            <li>Escolha a cor e o tamanho.</li>
+                            <li>Informe a quantidade desejada.</li>
+                            <li>Adicione o produto ao carrinho.</li>
+                            <li>Finalize o pedido.</li>
+                        </ol>
+                    </section>
+
+                </div>
+
+                <div class="bloco-tabela">
+                    <table>
+                        <caption>Tamanhos disponíveis do tênis</caption>
+
+                        <thead>
+                            <tr>
+                                <th scope="col">Tamanho</th>
+                                <th scope="col">Disponibilidade</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">39</th>
+                                <td>Disponível</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">40</th>
+                                <td>Disponível</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">41</th>
+                                <td>Disponível</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="rodape">
+            <section class="beneficios">
+                <div class="beneficio">
+                    <div class="icone-beneficio icone-pagamento">
+                        <img src="img/cartao.png" alt="Ícone de pagamento">
+                    </div>
+                    <strong>Escolha como pagar</strong>
+                </div>
+
+                <div class="beneficio">
+                    <div class="icone-beneficio icone-frete">
+                        <img src="img/caixa.png" alt="Ícone de frete">
+                    </div>
+                    <strong>Frete grátis a partir de R$ 19</strong>
+                </div>
+
+                <div class="beneficio">
+                    <div class="icone-beneficio icone-seguranca">
+                        <img src="img/escudo-de-seguranca.png" alt="Ícone de segurança">
+                    </div>
+                    <strong>Segurança, do início ao fim</strong>
+                </div>
+            </section>
+
+            <div class="links-rodape">
+                <a href="#">Trabalhe conosco</a>
+                <a href="#">Termos e condições</a>
+                <a href="#">Promoções</a>
+                <a href="#">Acessibilidade</a>
+                <a href="#">Contato</a>
+                <a href="#">Como cuidamos da sua privacidade</a>
+                <a href="#">Informações sobre seguros</a>
+                <a href="#">Programa de Afiliados</a>
+            </div>
+
+            <p>Copyright © 1999-2026. CompreJá Ltda.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+```
