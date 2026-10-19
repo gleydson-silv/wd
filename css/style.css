@@ -181,17 +181,10 @@ body {
     font-size: 12px;
 }
 
-.produto button {
-    display: block;
-    width: 125px;
-    height: 28px;
-    margin: 0 auto;
-    border: none;
-    border-radius: 7px;
-    background: var(--cor-botao);
-    color: var(--cor-texto);
-    font-size: 12px;
+.botao-comprar {
+    text-decoration: none;
     cursor: pointer;
+    color: var(--cor-texto);
 }
 
 .beneficios {
@@ -225,7 +218,6 @@ body {
 }
 
 .icone-frete,
-
 .beneficio strong {
     font-size: 14px;
 }
@@ -255,7 +247,6 @@ body {
     font-size: 12px;
 }
 
-/* Página de compra */
 .compra {
     background: var(--cor-ofertas);
 }
@@ -284,8 +275,17 @@ body {
 }
 
 .imagem-principal {
-    width: 100%;
-    aspect-ratio: 1.2;
+     width: 80%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.imagem-principal img {
+     width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .miniaturas {
@@ -297,6 +297,17 @@ body {
 .miniatura {
     width: clamp(48px, 6vw, 76px);
     height: clamp(40px, 5vw, 64px);
+
+    overflow: hidden;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.miniatura img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .info-produto {
@@ -426,7 +437,6 @@ body {
 
 .listas-produto {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     margin-bottom: 32px;
 }
